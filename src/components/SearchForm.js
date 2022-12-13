@@ -1,23 +1,15 @@
 import React from 'react'
-import {useEffect, useState } from 'react';
-import axios from 'axios';
-function SearchForm({city}) {
+import {useState } from 'react';
+
+function SearchForm({city,pro}) {
     const getInitialState = () => {
         const value = "Select your option";
         return value;
       };
-    useEffect(()=>{
-        axios.get(`https://unilife-server.herokuapp.com/properties`)
-    .then(response=>{
-      setPro(response.data.data)
-    })
-    .catch(err=>{console.log(err)})
-      },[])
     
-    const [Pro,setPro]=useState([])
     const [value, setValue] = useState(getInitialState);
-    let serched = Pro.filter(item=> item.city_id.name===value)
-   
+    let serched = pro.filter(item=> item.city_id.name===value)
+    
     const handleChange = (e) => {
         setValue(e.target.value);
       };

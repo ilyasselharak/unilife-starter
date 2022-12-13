@@ -1,7 +1,7 @@
 import React from 'react'
 import SearchForm from './SearchForm';
 import section from '../assets/person.png'
-function HomePage({city}) {
+function HomePage({city,pro}) {
   
  
   return (
@@ -9,7 +9,7 @@ function HomePage({city}) {
     <div className='container'>
         <h1>Find student homes with bills included</h1>
         <span>A simple and faster way to search for student accommodation</span>
-        <SearchForm city={city}/>
+        <SearchForm pro={pro} city={city}/>
         
     </div>
     <div className='card-container'>
@@ -34,7 +34,7 @@ function HomePage({city}) {
         </div>
         
     </div>
-    <button>See All Cities</button>
+    <a href="/seeallcities"><button>See All Cities</button></a>
     <h2>Compare all inclusive student home.</h2>
     <div className='icon'>
      <div>
