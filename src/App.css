@@ -163,3 +163,29 @@ form input{
 .left-sect{
     margin-bottom: -4px;
 }
+a{
+    text-decoration: none;
+}
+.cities{
+    width: 80%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.cities button{
+    background-color: white;
+    width: 220px;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 9px;
+    border: 1px solid grey;
+    font-size: large;
+    font-weight: bold;
+}.cities button:hover{
+    background-color: #3a5295;
+    color: #fff;
+
+}
+.allcities{
+    margin-top: 20px;
+}

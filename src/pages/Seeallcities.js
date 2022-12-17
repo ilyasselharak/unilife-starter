@@ -6,15 +6,17 @@ function Seeallcities({pro}) {
     <div className='container'>
         <h1>Student accommodation</h1>
         <p>UniLife have student accommodation available across the UK.</p>
-        <p>Whatever you're after. we can help you find the right student accommodationfor you</p>
+        <p>Whatever you're after. we can help you find the right student accommodation for you</p>
     </div>
-    <div>
+    <div className='allcities'>
         <center><h2>Search by City</h2></center>
+        <div className='cities'>
        {
          pro.map(item=>{
-            return <div><p>{item.city_id.name}</p></div>
+            return <div><a href=''><button>{item.name}</button></a></div>
          })
        }
+       </div>
     </div>
     </div>
   )

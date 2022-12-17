@@ -5,8 +5,8 @@ function Header() {
   return (
     <div className="header">
       <div className='logo'>
-        <img src='https://cdn-icons-png.flaticon.com/512/2173/2173774.png' alt='logo' width='30px'/>
-        <h5>UniLife</h5>
+        <a href="/"><img src='https://cdn-icons-png.flaticon.com/512/2173/2173774.png' alt='logo' width='30px'/></a>
+        <a href="/"><h5>UniLife</h5></a>
       </div>
      <div className='menu'>
         <img src='https://cdn-icons-png.flaticon.com/512/7245/7245139.png' alt='logo' width='30px'/>

@@ -9,7 +9,6 @@ function SearchForm({city,pro}) {
     
     const [value, setValue] = useState(getInitialState);
     let serched = pro.filter(item=> item.city_id.name===value)
-    
     const handleChange = (e) => {
         setValue(e.target.value);
       };
