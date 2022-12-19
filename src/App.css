@@ -189,3 +189,12 @@ a{
 .allcities{
     margin-top: 20px;
 }
+.CityDetails{
+    width: 90%;
+}
+.formDetail{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.formDetail h3{color: #000; text-align: left;margin-left: 16px;}

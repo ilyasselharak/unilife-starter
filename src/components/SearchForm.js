@@ -1,14 +1,13 @@
 import React from 'react'
 import {useState } from 'react';
 
-function SearchForm({city,pro}) {
+function SearchForm({city}) {
     const getInitialState = () => {
         const value = "Select your option";
         return value;
       };
     
     const [value, setValue] = useState(getInitialState);
-    let serched = pro.filter(item=> item.city_id.name===value)
     const handleChange = (e) => {
         setValue(e.target.value);
       };
@@ -27,13 +26,14 @@ function SearchForm({city,pro}) {
             </select>
            <select className='rooms'>
            <option disabled selected hidden>Any Bedroom</option>
-           {
-             serched.map((item)=>{
-              
-              return <option value={item.bedroom_count}>{item.bedroom_count}</option>
-                
-             })
-            }
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5</option>
+           <option value="6">6</option>
+           <option value="7">7</option>
+           <option value="8">8</option>
            </select>
            <input type="submit" value="Find Homes"/>
         </form>

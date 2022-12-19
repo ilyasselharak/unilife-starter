@@ -33,7 +33,7 @@ function App() {
      <Routes>
        <Route path="/seeallcities" element={<Seeallcities pro={Pro}/>}/>
        <Route path='/' element={<HomePage pro={Pro} city={cities}/>}/>
-       <Route path='/detail/:city' element={<CityDetails/>}/>
+       <Route path='/detail/:city' element={<CityDetails />}/>
      </Routes>
        
        <Footer />
