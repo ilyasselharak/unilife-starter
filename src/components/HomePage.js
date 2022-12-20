@@ -2,7 +2,7 @@ import React from 'react'
 import SearchForm from './SearchForm';
 import section from '../assets/person.png'
 function HomePage({city,pro}) {
-  
+  const der="/detail/"
  
   return (
     <div className='home'>
@@ -18,7 +18,7 @@ function HomePage({city,pro}) {
         {
           city.map((item)=>{ 
             return (
-            <div  className="items" style={{
+            <a href={der+item.name}><div  className="items" style={{
               background: "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)), url(" + item.image_url + ")",
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
@@ -27,7 +27,7 @@ function HomePage({city,pro}) {
               }}>
               <p>{item.name}</p>
               <p>{item.property_count} properties</p>
-            </div>)
+            </div></a>)
           })
         }
         

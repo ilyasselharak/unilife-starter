@@ -8,6 +8,7 @@ import axios from 'axios'
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Seeallcities from './pages/Seeallcities';
 import CityDetails from './pages/CityDetails';
+import ViewHome from './pages/ViewHome';
 
 
   
@@ -34,6 +35,7 @@ function App() {
        <Route path="/seeallcities" element={<Seeallcities pro={Pro}/>}/>
        <Route path='/' element={<HomePage pro={Pro} city={cities}/>}/>
        <Route path='/detail/:city' element={<CityDetails />}/>
+       <Route path='/home/:idhome' element={<ViewHome/>}/>
      </Routes>
        
        <Footer />

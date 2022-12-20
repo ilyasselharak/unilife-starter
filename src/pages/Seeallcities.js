@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Seeallcities({pro}) {
+  const der="/detail/"
   return (
     <div>
     <div className='container'>
@@ -13,7 +14,7 @@ function Seeallcities({pro}) {
         <div className='cities'>
        {
          pro.map(item=>{
-            return <div><a href=''><button>{item.name}</button></a></div>
+            return <div><a href={der+item.name}><button>{item.name}</button></a></div>
          })
        }
        </div>

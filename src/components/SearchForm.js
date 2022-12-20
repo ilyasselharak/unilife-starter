@@ -6,11 +6,12 @@ function SearchForm({city}) {
         const value = "Select your option";
         return value;
       };
-    
+    const der = "/detail/"
     const [value, setValue] = useState(getInitialState);
     const handleChange = (e) => {
         setValue(e.target.value);
       };
+
   return (
     <div>
         <form>

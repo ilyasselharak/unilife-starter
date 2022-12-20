@@ -1,0 +1,49 @@
+.formDetail h3{color: #000; text-align: left;margin-left: 16px;}
+.city_rooms{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    row-gap: 10px;
+}
+.city_item{
+    width: 100%;
+
+}
+.item{
+    margin-top: -4px;
+}
+.CityDetails{
+    width: 90%;
+    margin-top: 170px;
+}
+.formDetail{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.item_img{
+    width: inherit;
+    border-radius: 25px 25px 0 0;
+}
+.divO{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3a5295;
+    color: #fff;
+    padding: 15px;
+    
+}
+.divOO{
+    align-items: center;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.divOOO{display: flex;width: 40%;justify-content: space-between;}
+.divOOT{display: flex;width: 40%;justify-content: space-between;}
+.divTh{display: flex;justify-content: space-between;margin-bottom: 10px;}
+.item_info{padding: 10px;border-left: 1px solid gray;border-right: 1px solid grey;border-bottom: 1px solid gray;}
+.button{cursor: pointer;text-align: center;border-radius: 0px 0px 10px 10px;padding: 10px;border-right: 1px solid grey;border-left: 1px solid gray;border-bottom: 1px solid gray;}
+.button img{margin-right: 5px;}
