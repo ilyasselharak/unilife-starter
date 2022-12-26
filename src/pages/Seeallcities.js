@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../styles/seeallcities.css"
 function Seeallcities({pro}) {
   const der="/detail/"
   return (

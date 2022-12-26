@@ -1,6 +1,7 @@
 import React from 'react'
-import SearchForm from './SearchForm';
+import SearchForm from '../components/SearchForm';
 import section from '../assets/person.png'
+import "../styles/home.css"
 function HomePage({city,pro}) {
   const der="/detail/"
  

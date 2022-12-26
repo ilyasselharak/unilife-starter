@@ -1,5 +1,6 @@
 import React from 'react'
 import students from '../assets/students.png'
+import '../styles/cityinfo.css'
 function CityInfo({city}) {
   return (
     <div className='footer_info'>

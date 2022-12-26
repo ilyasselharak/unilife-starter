@@ -1,0 +1,29 @@
+.HomeInfo{
+    display: flex;
+    width: 90%;
+    margin: 20px auto 20px auto;
+}
+.slideR{
+    width: 50%;
+}
+.slideR img{
+    border-radius: 10px;
+}
+.slideL{
+    width: 50%;
+}
+.roomItem{
+    justify-content: space-between;
+    width: 70%;
+}
+.dtls{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.addressDiv{
+    border-bottom: 1px solid grey;
+    width: 62%;
+    font-size: 24px;
+    margin: 0 auto;
+}

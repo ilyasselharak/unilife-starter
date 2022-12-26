@@ -1,0 +1,23 @@
+.footer_info{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f6fafd;
+    border-radius: 15px;
+}
+.footer_info div{
+    width: 50%;
+}
+.footer_info h2{
+   margin-bottom: 8px;
+}
+.footer_info img{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.parag{
+    padding: 20px 50px 20px 20px;
+}
+.first-pa{
+    margin-bottom: 10px;
+}

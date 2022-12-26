@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
+import "../styles/ViewHome.css"
 function ViewHome() {
     const {idhome} = useParams()
     const [Home,setHome]=useState()
@@ -22,7 +23,7 @@ function ViewHome() {
       }
   return (
     <div>
-        <h4>bach to search</h4>
+        <h4>back to search</h4>
         <div>
         {
          filter?.map(item=>{
